@@ -4,8 +4,8 @@ h1 {
     font-size: 70px;
     margin: 10px;
 }
-h5 {
-    writing-mode: horizontal-tb
+h4 {
+    margin: 25px 20px;
 }
 div.header {
     float: left;
@@ -18,19 +18,17 @@ div.header {
     border :solid;
     display: flex;
     border-color: blue;
-    background-color: red;
     padding: 0px;
     font-size : 30px;
-    
 }
+
 p.name {
-    background-color: aqua;
     float: left;
     
     font-size: 40px;
 }
 
-p.textbox1,p.textbox2,p.textbox3 {
+p.textbox {
     border-color: black;
     border-bottom: solid;
     display: flex;
@@ -41,4 +39,25 @@ p.textbox1,p.textbox2,p.textbox3 {
 }
 #text-button {
     cursor: pointer;
+}
+p.textbox-click {
+    color: red;
+    border-color: red;
+    border-bottom: solid;
+    display: flex;
+    float: right;
+    margin-left: 100px;
+    font-size: 35px;
+}
+p.textbox-none {
+    color: rgb(165, 165, 165);
+    border-color: rgb(165, 165, 165);
+    border-bottom: solid;
+    display: flex;
+    float: right;
+    margin-left: 100px;
+    font-size: 35px;
+}
+p {
+    margin: 10px 30px;
 }
